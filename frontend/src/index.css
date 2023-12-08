@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #222;
+  color: #fff;
+  padding: 15px;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 4px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #06c4e1;
+}
+
+.map-container {
+  height: '90vh';
+  width: '50%';
+  float: 'right'
+}
